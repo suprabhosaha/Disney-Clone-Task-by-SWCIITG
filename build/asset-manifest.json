@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7f425722.css",
+    "main.js": "/static/js/main.a27e3e86.js",
+    "static/media/entry_bg.jpg": "/static/media/entry_bg.a3f6e7fbcf255b58a088.jpg",
+    "static/media/Disney+Hotstar-Logo.png": "/static/media/Disney+Hotstar-Logo.729359604fb5e4eb5b78.png",
+    "static/media/collab.png": "/static/media/collab.c6fb8ecff167b2f46045.png",
+    "static/media/logo.png": "/static/media/logo.71fe6502686ff40780bc.png",
+    "static/media/ESPN_Plus_Logo.png": "/static/media/ESPN_Plus_Logo.27a1f1ac8e5083d9207b.png",
+    "static/media/slider_image.jpg": "/static/media/slider_image.bbbcfda629471ba4f39e.jpg",
+    "static/media/Hulu-Logo.png": "/static/media/Hulu-Logo.0941bc07914c795ce436.png",
+    "index.html": "/index.html",
+    "main.7f425722.css.map": "/static/css/main.7f425722.css.map",
+    "main.a27e3e86.js.map": "/static/js/main.a27e3e86.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7f425722.css",
+    "static/js/main.a27e3e86.js"
+  ]
+}
