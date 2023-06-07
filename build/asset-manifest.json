@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7f425722.css",
-    "main.js": "/static/js/main.48b8fa1d.js",
+    "main.js": "/static/js/main.c20d1626.js",
     "static/media/entry_bg.jpg": "/static/media/entry_bg.a3f6e7fbcf255b58a088.jpg",
     "static/media/Disney+Hotstar-Logo.png": "/static/media/Disney+Hotstar-Logo.729359604fb5e4eb5b78.png",
     "static/media/collab.png": "/static/media/collab.c6fb8ecff167b2f46045.png",
@@ -11,10 +11,10 @@
     "static/media/Hulu-Logo.png": "/static/media/Hulu-Logo.0941bc07914c795ce436.png",
     "index.html": "/index.html",
     "main.7f425722.css.map": "/static/css/main.7f425722.css.map",
-    "main.48b8fa1d.js.map": "/static/js/main.48b8fa1d.js.map"
+    "main.c20d1626.js.map": "/static/js/main.c20d1626.js.map"
   },
   "entrypoints": [
     "static/css/main.7f425722.css",
-    "static/js/main.48b8fa1d.js"
+    "static/js/main.c20d1626.js"
   ]
 }
