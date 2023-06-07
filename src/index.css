@@ -1,0 +1,432 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #0f121d;
+  /* background-color: red; */
+}
+
+svg {
+  /* color: white;
+  font-size: 1.5em; */
+  padding: 0px 1px;
+  cursor: pointer;
+}
+
+#navbar {
+  width: 100%;
+  height: 8%;
+  background-color: black;
+  position: fixed;
+}
+
+#nav-logo {
+  width: 100px;
+  height: 80%;
+  margin: 5px;
+  margin-left: auto;
+}
+
+.login {
+  float: right;
+  width: 80px;
+  margin-top: 1.3%;
+  margin-right: 2%;
+  padding: 5px 10px;
+  font-size: 1.1rem;
+  background-color: rgb(27, 27, 27);
+  color: rgba(128, 128, 128, 0.937);
+  outline: none;
+  border: 2px solid rgba(128, 128, 128, 0.442);
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.login:hover {
+  background-color: gray;
+  color: black;
+}
+
+.login:active {
+  background-color: rgba(128, 128, 128, 0.764);
+  color: rgba(245, 245, 245, 0.762);
+}
+
+.entry {
+  position: absolute;
+  background-image:linear-gradient(to bottom, rgba(7, 7, 7, 0.403), rgba(7, 7, 7, 0.73)), url("./entry_bg.jpg");
+  width: 100%;
+  height: 92vh;
+  background-repeat:no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3.9rem;
+  z-index: -2;
+}
+
+.entry::after {
+  background-color: black;
+  z-index: -1;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  /* background-color: blue; */
+  margin: auto;
+  /* background-color: aqua; */
+  padding: 0px 10px;
+}
+
+.line-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hulu_logo {
+  width: 20%;
+  padding-top: 41px;
+}
+
+.logo {
+  width: 40%;
+}
+
+.espn_logo {
+  padding-top: 47px;
+  width: 25%;
+  filter: invert();
+}
+
+.line-2 {
+  width: 100%;
+  text-align: center;
+}
+
+#explore {
+  width: 100%;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 10px;
+  margin: 5px 0px;
+  color: white;
+  background-color: #3a3af6;
+  border-radius: 6px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+
+#explore:hover {
+  background-color: #2e2ef2;
+}
+
+#explore:active {
+  background-color: #1f1ff0;
+}
+
+.line-3 {
+  text-align: center;
+  color: white;
+  font-size: 0.9rem;
+  margin: 5px 0px;
+}
+
+.line-4 {
+  width: 105%;
+  text-align: center;
+}
+
+.partners {
+  width: 100%;
+  text-align: center;
+}
+
+#footer {
+  width: 100%;
+  max-height: 20%;
+  background-color: black;
+  border-top: 2px solid black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2%;
+}
+
+.footer-content ul {
+  margin: 20px 0px;
+}
+
+.footer-content ul li {
+  margin: 10px 0px;
+  list-style: none;
+  font-size: 0.8rem;
+  color: gray;
+}
+
+.footer-content ul li a{
+  text-decoration: none;
+  color: gray;
+}
+
+.footer-content ul li a:hover{
+  text-decoration: underline;
+}
+
+.footer-logo {
+  margin: 25px 0px;
+}
+
+#copyright {
+  color: gray;
+  width: 82%;
+  margin: 10px auto;
+  margin-bottom: 0px;
+  font-size: 0.8rem;
+}
+
+#copyright p {
+  margin: 10px 0px;
+}
+
+.movie-container {
+  background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/4F39B7E16726ECF419DD7C49E011DD95099AA20A962B0B10AA1881A70661CE45/scale?width=1440&aspectRatio=1.78&format=jpeg");
+  background-size: cover;
+  width: 100%;
+  height: 92vh;
+  background-repeat:no-repeat;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  margin-top: 3.9rem;
+  z-index: -2;
+}
+
+.movie-box {
+  margin-left: 22px;
+  width: 50%;
+}
+
+.movie-box img {
+  width: 70%;
+  margin-bottom: 5%;
+}
+
+.watch button {
+  width: 90px;
+  height: 40px;
+  margin-right: 20px;
+  margin-bottom: 5px;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#play:hover {
+  background-color: rgb(230, 229, 229);
+}
+
+#play:active {
+  background-color: rgb(209, 209, 209);
+}
+
+#trailer {
+  filter: invert();
+  background-color: rgba(249, 245, 245, 0.298);
+  border: 1px solid black;
+  width: 120px;
+  height: 40px;
+}
+
+#trailer:hover {
+  background-color: rgba(249, 245, 245, 0.572);
+}
+
+#trailer:active {
+  background-color: rgba(249, 245, 245, 0.914);
+}
+
+#add {
+  background-color: rgba(0, 0, 0, 0.688);
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+#add:hover {
+  background-color: rgba(183, 183, 183, 0.723);
+  border: none;
+}
+
+#add:active {
+  background-color: rgba(183, 183, 183, 0.426);
+  color: black;
+  border: none;
+}
+
+.subTitle {
+  margin: 20px 0px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
+}
+
+.description {
+  color: white;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#sidebar {
+  float: left;
+  width: 100px;
+  max-width: 100px;
+  position: fixed;
+  top: 8%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px 0px;
+  padding-left: 5px;
+}
+
+#sidebar img {
+  width: 70%;
+  margin: 5px 0px;
+}
+
+#subscribe {
+  width: 90%;
+  font-size: 0.9rem;
+  color: gold;
+  background-color: rgba(128, 128, 128, 0.458);
+  padding: 2px 0px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+#sidebar-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;;
+  height: 75vh;
+}
+
+.sidebar-logo {
+  padding: 6px;
+  margin:10px 0px;
+  border-radius: 8px;
+}
+
+.sidebar-logo:hover {
+  box-shadow: 0 2px 4px rgba(245, 244, 244, 0.731), 0 4px 8px rgba(242, 240, 240, 0.848);
+}
+
+#home {
+  position: absolute;
+  width: 93%;
+  margin-top: 5%;
+  margin-left: 105px;
+  z-index: -2;
+}
+
+#slider {
+  width: 45%;
+  margin: auto;
+  height: 44vh;
+}
+
+#slider img {
+  position: absolute;
+  z-index: -1;
+  height: inherit;
+  width: inherit;
+}
+
+.slider_box {
+  height: inherit;
+  position: relative;
+  z-index: 1;
+  display: flex;
+}
+
+.left-arrow {
+  display: flex;
+  width: 10%;
+  margin-right: auto;
+  cursor: pointer;
+}
+
+.left-arrow:hover {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.552) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.right-arrow {
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.right-arrow:hover {
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.552) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+#FALC {
+  display: block;
+  margin: auto;
+}
+
+#FARC {
+  display: block;
+  margin: auto;
+}
+
+.blog-box {
+  color: white;
+  margin-top: 2rem;
+  margin-left: 1%;
+}
+
+.blog-box h2 {
+  font-size: 1.25rem;
+  margin-bottom: 0.6rem;
+}
+
+.box-item {
+  display: flex;
+  overflow-x: scroll;
+  justify-content: space-between;
+}
+
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+.blog-preview {
+  margin: 10px 5px;
+}
+
+.blog-preview img {
+  border-radius: 10px;
+  cursor: pointer;
+}
